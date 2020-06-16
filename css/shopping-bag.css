@@ -1,0 +1,73 @@
+.shopping-bag__content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.shopping-bag__item{
+	width: 50%;
+	display: flex;
+	margin-bottom:90px;
+}
+.shopping-bag_item-description{
+	margin-left:25px;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.shopping-bag_item-name, .shopping-bag_item-price{
+	font-weight:bold;
+	font-size: 14px;
+}
+.shopping-bag_item-price{
+	margin:24px 0 40px;
+}
+
+.shopping-bag_item-description p {
+	display: inline;
+	line-height: 28px;
+}
+.shopping-bag_item-description a {
+	color:red;
+}
+.shopping-bag_item-description a:last-child {
+	margin-top:40px;
+}
+.shopping-bag__free-delivery{
+	font-family: "Open Sans", sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #f7f7f7;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	height:40px;
+	width:100%;
+	text-align: center;
+	line-height: 38px;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.shopping-bag__free-delivery > span{
+	color:red;
+}
+.shopping-bag__footer{
+	display: flex;
+	align-items: baseline;
+}
+.shopping-bag__discount {
+	font-size: 16px;
+}
+.shopping-bag__discount p:first-child{
+	color:red;
+}
+.shopping-bag__discount p:last-child{
+	font-size: 22px;
+	font-weight: bold;
+}
+.shopping-bag__discount span{
+	font-weight: normal;
+	font-family: "Times New Roman", serif;
+
+}
